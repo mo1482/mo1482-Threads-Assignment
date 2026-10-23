@@ -1,8 +1,5 @@
 # Assignment 01 — Answers
 
-Student name: ____________________
-Group / ID: ____________________
-
 ## Problems with the current design
 
 - **Synchronous waiting:** `Thread.Sleep` simulates slow database/file operations and blocks a thread while waiting. Real synchronous I/O has the same scalability problem.
